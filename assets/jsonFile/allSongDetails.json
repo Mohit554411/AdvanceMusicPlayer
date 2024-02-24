@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "songName": "Dil Se Dil Tak",
+        "singer": "Laqshay Kapoor",
+        "music": "Azeem Dayani",
+        "lyrics": "Kausar Munir",
+        "genre": "Romantic",
+        "songUrl": "DilSeDilTak.mp3",
+        "imageurl": "assets/images/DilSeDilTak.webp"
+    },
+    {
+        "id": 2,
+        "songName": "O Mahi O Mahi",
+        "singer": "Arijit Singh",
+        "music": "Pritam",
+        "lyrics": "Irshad Kamil",
+        "genre": "Romantic",
+        "songUrl": "OMahiOMahi.mp3",
+        "imageurl": "assets/images/OMahiOMahi.webp"
+    },
+    {
+        "id": 3,
+        "songName": "Tera Ban Jaunga",
+        "singer": "Tulsi Kumar, Akhil Sachdeva",
+        "music": "Mithoon, Amaal Mallik, Sachet-Parampara, Vishal Mishra",
+        "lyrics": "Irshad Kamil",
+        "genre": "Romantic",
+        "songUrl": "TeraBanJaunga.mp3",
+        "imageurl": "assets/images/TeraBanJaunga.webp"
+    },
+    {
+        "id": 4,
+        "songName": "Obsessed",
+        "singer": "Riar Saab",
+        "music": "Riar Saab",
+        "lyrics": "Riar Saab",
+        "genre": "Party",
+        "songUrl": "Obsessed.mp3",
+        "imageurl": "assets/images/Obsessed.webp"
+    },
+    {
+        "id": 5,
+        "songName": "Hass Hass",
+        "singer": "Diljit Dosanjh, Sia, Greg Kurstin",
+        "music": "Diljit Dosanjh, Sia, Greg Kurstin",
+        "lyrics": "Diljit Dosanjh, Sia, Greg Kurstin",
+        "genre": "Party",
+        "songUrl": "HassHass.mp3",
+        "imageurl": "assets/images/Obsessed.webp"
+    }
+]

@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b4dff94a38.js" crossorigin="anonymous"></script>
+    <title>Stoopid Monkey</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="assets/images/Stoopid-Monkey-Logo.png" alt="">
+            <label class="switch">
+                <input type="checkbox" id="themeChangeCheckBox">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+        <main class="mainSection">
+
+            <section class="firstSection">
+                <div class="filterGenre">
+                    <span>Filter By Genre : </span>
+                    <select name="genre" id="filterGenre">
+                        <option value="All">All</option>
+                        <option value="Romantic">Romantic</option>
+                        <option value="Party">Party</option>
+                    </select>
+                </div>
+                <div class="allSongSection">
+                    <h2>All Songs</h2>
+                    <div class="allSongList">
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="secondSection">
+                <div class="songDetailsConatiner">
+                    <img src="assets/images/DilSeDilTak.webp" alt="album" id="albumImage">
+                    <div class="songDetailsList">
+                        <div class="songDetailsList__item">
+                            <span>Song Name : </span>
+                            <span id="songName">Song Name</span>
+                        </div>
+                        <div class="songDetailsList__item">
+                            <span>Singer : </span>
+                            <span id="singer">Artist Name</span>
+                        </div>
+                        <div class="songDetailsList__item">
+                            <span>Lyrics : </span>
+                            <span id="lyrics">Genre</span>
+                        </div>
+                        <div class="songDetailsList__item">
+                            <span>Music : </span>
+                            <span id="music">Duration</span>
+                        </div>
+                        <div class="songDetailsList__item">
+                            <span>Genre : </span>
+                            <span id="musicGenre">Duration</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="songControl">
+                    <i class="fa-solid fa-arrow-left" title="next" id="nextButton"></i>
+                    <audio controls id="audioPlayer">
+                        <source id="audioElement" src="assets/songs/DilSeDilTak.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <i class="fa-solid fa-arrow-right" title="previous" id="preButton"></i>
+                </div>
+                <div>
+                    <button id="addPlaylist">Add To Playlist</button>
+                </div>
+            </section>
+            <section class="thirdSection">
+                <div class="creatingPlaylist">
+                    <input type="text" placeholder="Create Playlist" id="createPlaylistInput">
+                    <button id="createPlaylistButton">Create</button>
+                </div>
+                <div class="allSongSection">
+                    <h2>Current Playlist</h2>
+                    <div class="playListAllSongList">
+
+                    </div>
+                </div>
+                <div class="allSongSection">
+                    <h2>All Playlist</h2>
+                    <div class="allPlaylist">
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script type="module" src="app.js">
+    </script>
+</body>
+
+</html>
